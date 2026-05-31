@@ -1,0 +1,7 @@
+flask
+pandas
+joblib
+tensorflow
+scikit-learn
+numpy
+protobuf==6.31.1
