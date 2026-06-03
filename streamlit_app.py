@@ -28,12 +28,12 @@ monthly_income = st.number_input(
 )
 
 job_satisfaction = st.selectbox(
-    "Job Satisfaction",
+    "Job Satisfaction(Least-1, Best-4)")",
     [1, 2, 3, 4]
 )
 
 work_life_balance = st.selectbox(
-    "Work Life Balance",
+    "Work Life Balance(Least-1, Best-4)" )",
     [1, 2, 3, 4]
 )
 
