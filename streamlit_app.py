@@ -26,14 +26,15 @@ monthly_income = st.number_input(
     min_value=1000,
     value=5000
 )
+
 job_satisfaction = st.selectbox(
-    "Job Satisfaction(Least-1, Best-4)"),
-    [1, 2, 3, 4]
+    "Job Satisfaction",
+    options=[1, 2, 3, 4]
 )
 
 work_life_balance = st.selectbox(
-    "Work Life Balance(Least-1, Best-4)" ),
-    [1, 2, 3, 4]
+    "Work Life Balance",
+    options=[1, 2, 3, 4]
 )
 
 years_at_company = st.number_input(
