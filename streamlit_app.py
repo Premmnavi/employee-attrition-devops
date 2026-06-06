@@ -18,13 +18,15 @@ age = st.number_input(
     "Age",
     min_value=18,
     max_value=65,
-    value=30
+    value=None,
+     placeholder="Enter Age"
 )
 
 monthly_income = st.number_input(
     "Monthly Income",
     min_value=1000,
-    value=5000
+    value=None,
+    placeholder="Enter Monthly Income"
 )
 
 job_satisfaction = st.selectbox(
